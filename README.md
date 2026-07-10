@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/discord-new-logo.png" alt="Discord" width="80"/>
-  <img src="https://img.icons8.com/color/96/gta.png" alt="FiveM" width="80"/>
+  <img src="https://i.imgur.com/e6Z28RR.png" alt="FiveM" width="80"/>
   <h1 align="true">MindFramework Discord Bot</h1>
   <p>
     <strong>A feature-rich Discord bot for FiveM server management</strong>
