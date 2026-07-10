@@ -11,8 +11,9 @@ import * as cmdMaintenance from './src/commands/maintenance.js'
 import * as cmdPlayer from './src/commands/player.js'
 import * as cmdBroadcast from './src/commands/broadcast.js'
 import * as cmdSuggest from './src/commands/suggest.js'
+import * as cmdTest from './src/commands/test.js'
 
-const commands = [cmdIp, cmdJoin, cmdPlayers, cmdStatus, cmdSetup, cmdSetRestart, cmdMaintenance, cmdPlayer, cmdBroadcast, cmdSuggest]
+const commands = [cmdIp, cmdJoin, cmdPlayers, cmdStatus, cmdSetup, cmdSetRestart, cmdMaintenance, cmdPlayer, cmdBroadcast, cmdSuggest, cmdTest]
 const commandsData = commands.map((c) => c.data.toJSON())
 
 const rest = new REST({ version: '10' }).setToken(config.token)

@@ -28,8 +28,9 @@ import * as cmdMaintenance from './commands/maintenance.js'
 import * as cmdPlayer from './commands/player.js'
 import * as cmdBroadcast from './commands/broadcast.js'
 import * as cmdSuggest from './commands/suggest.js'
+import * as cmdTest from './commands/test.js'
 
-const commands = [cmdIp, cmdJoin, cmdPlayers, cmdStatus, cmdSetup, cmdSetRestart, cmdMaintenance, cmdPlayer, cmdBroadcast, cmdSuggest]
+const commands = [cmdIp, cmdJoin, cmdPlayers, cmdStatus, cmdSetup, cmdSetRestart, cmdMaintenance, cmdPlayer, cmdBroadcast, cmdSuggest, cmdTest]
 const commandsData = commands.map((c) => c.data.toJSON())
 
 export async function startBot() {
