@@ -277,10 +277,9 @@ Dit project is gelicenseerd onder de **MIT Licentie** — zie het [LICENSE](../L
 
 ---
 
-<!--
 ╔═════════════════════════════════════════════════╗
 ║  MindFramework Discord Bot — Version 1.0.0      ║
 ║  Copyright (c) 2026 MindFramework               ║
 ║  MIT License                                    ║
 ╚═════════════════════════════════════════════════╝
--->
+
